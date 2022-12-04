@@ -28,6 +28,7 @@ document.addEventListener('DOMContentLoaded', function () {
         // Request the camera.
         navigator.getMedia(
             {
+				audio: true,
                 video: true
             },
             // Success Callback
